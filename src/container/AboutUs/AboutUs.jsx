@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-import {images} from '../../constants'
-import './AboutUs.css'
+import {images} from '../../constants';
+import './AboutUs.css';
 
 const AboutUs = () => (
     <div
@@ -53,6 +53,6 @@ const AboutUs = () => (
             </div>
         </div>
     </div>
-)
+);
 
-export default AboutUs
+export default AboutUs;

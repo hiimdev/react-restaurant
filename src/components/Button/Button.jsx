@@ -1,4 +1,4 @@
-import './button.scss'
+import './button.scss';
 
 const Button = ({title}) => (
     <div className='button-wrap'>
@@ -6,6 +6,6 @@ const Button = ({title}) => (
             {title}
         </button>
     </div>
-)
+);
 
-export default Button
+export default Button;

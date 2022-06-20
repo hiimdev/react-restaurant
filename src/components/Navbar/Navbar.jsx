@@ -1,15 +1,15 @@
-import React, {useState} from 'react'
-import {Link} from 'react-router-dom'
+import React, {useState} from 'react';
+import {Link} from 'react-router-dom';
 
-import {GiHamburgerMenu} from 'react-icons/gi'
-import {MdOutlineRestaurantMenu} from 'react-icons/md'
+import {GiHamburgerMenu} from 'react-icons/gi';
+import {MdOutlineRestaurantMenu} from 'react-icons/md';
 
-import images from '../../constants/images'
+import images from '../../constants/images';
 
-import './Navbar.css'
+import './Navbar.css';
 
 const Navbar = () => {
-    const [toggleMenu, setToggleMenu] = useState(false)
+    const [toggleMenu, setToggleMenu] = useState(false);
 
     return (
         <nav className='app__navbar'>
@@ -40,6 +40,7 @@ const Navbar = () => {
                     Log In / Register
                 </Link>
 
+                <div />
                 <a href='/' className='p__opensans'>
                     Book Table
                 </a>
@@ -85,7 +86,7 @@ const Navbar = () => {
                 )}
             </div>
         </nav>
-    )
-}
+    );
+};
 
-export default Navbar
+export default Navbar;

@@ -1,4 +1,4 @@
-import './input.scss'
+import './input.scss';
 
 const Input = ({id, type, placeholder}) => (
     <div className='input__wrap'>
@@ -12,6 +12,6 @@ const Input = ({id, type, placeholder}) => (
             className='input__field'
         />
     </div>
-)
+);
 
-export default Input
+export default Input;

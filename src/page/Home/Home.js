@@ -8,9 +8,9 @@ import {
     Intro,
     Laurels,
     SpecialMenu,
-} from '../../container'
+} from '../../container';
 
-import {Navbar} from '../../components'
+import {Navbar} from '../../components';
 
 const Home = () => (
     <>
@@ -25,6 +25,6 @@ const Home = () => (
         <FindUs />
         <Footer />
     </>
-)
+);
 
-export default Home
+export default Home;

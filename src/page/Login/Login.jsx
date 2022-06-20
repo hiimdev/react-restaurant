@@ -1,14 +1,14 @@
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
 
-import Socials from '../../components/Socials/Socials'
-import Input from '../../components/Input/Input'
-import Button from '../../components/Button/Button'
+import Socials from '../../components/Socials/Socials';
+import Input from '../../components/Input/Input';
+import Button from '../../components/Button/Button';
 
-import {FcGoogle} from 'react-icons/fc'
-import {FaFacebook} from 'react-icons/fa'
-import {AiOutlineHome} from 'react-icons/ai'
+import {FcGoogle} from 'react-icons/fc';
+import {FaFacebook} from 'react-icons/fa';
+import {AiOutlineHome} from 'react-icons/ai';
 
-import '../globalstyle.scss'
+import '../globalstyle.scss';
 
 const Login = () => (
     <>
@@ -69,6 +69,6 @@ const Login = () => (
             </div>
         </div>
     </>
-)
+);
 
-export default Login
+export default Login;

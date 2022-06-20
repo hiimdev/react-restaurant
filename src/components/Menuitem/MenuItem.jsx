@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-import './MenuItem.css'
+import './MenuItem.css';
 
 const MenuItem = ({title, price, tags}) => (
     <div className='app__menuItem'>
@@ -24,6 +24,6 @@ const MenuItem = ({title, price, tags}) => (
             </p>
         </div>
     </div>
-)
+);
 
-export default MenuItem
+export default MenuItem;
