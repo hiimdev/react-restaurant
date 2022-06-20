@@ -1,0 +1,128 @@
+body {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(
+        circle,
+        rgba(238, 174, 202, 1) 0%,
+        rgba(148, 187, 233, 1) 100%
+    );
+}
+
+.wrap {
+    width: 500px;
+}
+
+.form {
+    position: relative;
+    max-width: 620px;
+    margin: 4rem auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 30px;
+    &__head {
+        font-family: -apple-system, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+            'Helvetica Neue', sans-serif;
+        margin: 2rem 0;
+        &-title {
+            font-size: 3rem;
+            padding: 1rem 0;
+        }
+    }
+    &__signin-gmail {
+        font-family: -apple-system, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+            'Helvetica Neue', sans-serif;
+        color: #ccc;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin: 2rem 0;
+        &_dash {
+            height: 1px;
+            background-color: #ccc;
+            flex: 1;
+        }
+        &_title {
+            padding: 0 1rem;
+        }
+    }
+
+    &__forgetPass {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1rem 0;
+        font-family: -apple-system, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+            'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        &-remember {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            #checkbox__remember {
+                margin-right: 0.7rem;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            .label__remember {
+                &-text {
+                    color: rgb(99, 76, 240);
+                    text-decoration: none;
+                }
+            }
+        }
+
+        &-forget {
+            color: rgb(81, 56, 238);
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    &__createAccount {
+        margin-bottom: 50px;
+        margin-top: 1rem;
+        font-family: -apple-system, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+            'Helvetica Neue', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        a {
+            color: rgb(81, 56, 238);
+            text-decoration: none;
+        }
+    }
+}
+
+.btn__backhome {
+    padding: 0.3rem 0.8rem;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+
+    cursor: pointer;
+    // a {
+    //     width: 100%;
+    // }
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .wrap {
+        width: 90%;
+    }
+    .form {
+        max-width: 600px;
+
+        margin: 3rem 1rem;
+    }
+}
