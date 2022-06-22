@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './socials.scss';
 
 const Socials = ({title, icon}) => (

@@ -1,3 +1,4 @@
+import React from 'react';
 import {Link} from 'react-router-dom';
 
 import Socials from '../../components/Socials/Socials';
@@ -8,10 +9,11 @@ import {FcGoogle} from 'react-icons/fc';
 import {FaFacebook} from 'react-icons/fa';
 import {AiOutlineHome} from 'react-icons/ai';
 
-import '../globalstyle.scss';
+
+import '../styleForm.scss';
 
 const SignUp = () => (
-    <>
+    
         <div className='form'>
             <Link to='/'>
                 <button className='btn__backhome'>
@@ -67,7 +69,7 @@ const SignUp = () => (
                 </p>
             </div>
         </div>
-    </>
+  
 );
 
 export default SignUp;
